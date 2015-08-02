@@ -27,7 +27,7 @@ else
 
             fileContent=`cat ${file}`
  
-            res=$(curl -X POST -d " $fileContent " "${server}/SyntaxValidation/receive")
+            res=$(curl -X POST -d " $fileContent " ${server}/SyntaxValidation/receive)
 
 	    res=$(rapper -i turtle "${files}" -c 2>&1)
 
