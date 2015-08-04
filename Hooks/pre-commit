@@ -14,7 +14,7 @@ if [ "$currentBranch" = "refs/heads/master1" ]; then
 	 exit 1
 else
 
-	files=$(git diff --cached --name-only --diff-filter=ACM | grep ".ttl$")
+        files=$(git diff --cached --name-only --diff-filter=ACM | grep ".ttl$")
 	if [ "$files" = "" ]; then 
 	    exit 0 
 	fi
