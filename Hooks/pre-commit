@@ -29,7 +29,7 @@ else
  
             res=$(curl -X POST -d " $fileContent " ServerURL/syntaxvalidation)
 
-	    res=$(rapper -i turtle "${files}" -c 2>&1)
+	    res=$(rapper -i turtle "${file}" -c 2>&1)
 
 	    if echo $res | grep -q "Error"; then
 		echo "\t\033[31mValidation Failed! ${file}\033[0m"
