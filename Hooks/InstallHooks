@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd ../../
+cd ../../ 
 #Copy implemented hooks 
 for file in `ls -1 git4voc-master/Hooks`
 do
