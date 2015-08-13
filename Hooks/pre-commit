@@ -25,7 +25,7 @@ else
 
 	for file in ${files}; do
 
-            fileContent=`${file}-+-cat ${file}`
+            fileContent=`${file}-+- cat ${file}`
  
             res=$(curl -X POST -d " $fileContent " ServerURL/syntaxvalidation)
 
