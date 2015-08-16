@@ -25,9 +25,15 @@ else
 
 	for file in ${files}; do
 
-            fileContent=`${file}-+- cat ${file}`
+            fileContent=`cat ${file}`
  
-            res=$(curl -X POST -d " $fileContent " ServerURL/syntaxvalidation)
+            fileHeader="${file}StringToSplit"
+          
+            fileContent="${fileHeader}${fileContent}"
+          
+            echo " ${fileContent} " > tempFileCurl.ttl
+
+            res=$(curl -X POST --data-binary @tempFileCurl.ttl ServerURL/syntaxvalidation)
 
 	    if echo $res | grep -q "Error"; then
 		echo "\t\033[31mValidation Failed! ${file}\033[0m"
@@ -36,6 +42,8 @@ else
 	    else
 	       echo "\t\033[32mValidation Passed! ${file}\033[0m"
 	    fi
+   
+            #rm -f tempFileCurl.ttl
 
 	done
 
