@@ -43,7 +43,7 @@ else
 	       echo "\t\033[32mValidation Passed! ${file}\033[0m"
 	    fi
    
-            #rm -f tempFileCurl.ttl
+            rm -f tempFileCurl.ttl
 
 	done
 
