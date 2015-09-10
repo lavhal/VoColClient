@@ -8,7 +8,6 @@ do
  fi
 done
 
-
 #Ignore tools folder using .gitignore
 if [ ! -e ".gitignore" ]; then
   touch .gitignore
