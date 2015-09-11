@@ -1,1 +1,1 @@
-# git4voc
+# VoColClient client support
