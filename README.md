@@ -1,3 +1,36 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [VoCol - Vocabulary collaboration and build environment.](#vocol---vocabulary-collaboration-and-build-environment)
+  - [Required libraries and tools](#required-libraries-and-tools)
+  - [Installation using a Virtual Machine Image (Vagrant Box)](#installation-using-a-virtual-machine-image-vagrant-box)
+    - [1. Installation and Configuration of VoCol Environment](#1-installation-and-configuration-of-vocol-environment)
+    - [2. Configuration of the VoCol Environment](#2-configuration-of-the-vocol-environment)
+  - [Installation on a Web Server](#installation-on-a-web-server)
+    - [Working with VoCol](#working-with-vocol)
+      - [VoCol on local machine](#vocol-on-local-machine)
+      - [VoCol on the GitHub](#vocol-on-the-github)
+  - [How it works](#how-it-works)
+    - [Client Side](#client-side)
+    - [Server Side](#server-side)
+- [Developing Vocabularies with VoCol Environment](#developing-vocabularies-with-vocol-environment)
+    - [Vocabulary Language and Representation](#vocabulary-language-and-representation)
+  - [Branching and Merging](#branching-and-merging)
+    - [Vocabulary Organization Structure](#vocabulary-organization-structure)
+    - [Labeling of Release Versions](#labeling-of-release-versions)
+  - [Best Practices for Vocabulary Development](#best-practices-for-vocabulary-development)
+    - [Reuse](#reuse)
+    - [Naming Conventions](#naming-conventions)
+    - [Dereferenceability](#dereferenceability)
+    - [Multilinguality](#multilinguality)
+    - [Documentation](#documentation)
+    - [Validation](#validation)
+    - [Authoring](#authoring)
+    - [Utilization of SKOS Vocabulary](#utilization-of-skos-vocabulary)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 VoCol - Vocabulary collaboration and build environment.
 =====
 
