@@ -20,8 +20,8 @@ https://zenodo.org/record/15023
 
   - [Required libraries and tools](#required-libraries-and-tools)
   - [Installation using a Virtual Machine Image (Vagrant Box)](#installation-using-a-virtual-machine-image-vagrant-box)
-    - [1. Installation and Configuration of VoCol Environment](#1-installation-and-configuration-of-vocol-environment)
-    - [2. Configuration of the VoCol Environment](#2-configuration-of-the-vocol-environment)
+    - [Installation and Configuration of VoCol Environment](#1-installation-and-configuration-of-vocol-environment)
+    - [Configuration of the VoCol Environment](#2-configuration-of-the-vocol-environment)
   - [Installation on a Web Server](#installation-on-a-web-server)
     - [Working with VoCol](#working-with-vocol)
       - [VoCol on local machine](#vocol-on-local-machine)
@@ -63,7 +63,7 @@ https://zenodo.org/record/15023
 
 ##Installation using a Virtual Machine Image (Vagrant Box)
 
-###1. Installation and Configuration of VoCol Environment
+###Installation and Configuration of VoCol Environment
 
 Install VirtualBox and Vagrant, these are standard procedures and found on their respective Web Sites.
 
@@ -87,7 +87,7 @@ Install VirtualBox and Vagrant, these are standard procedures and found on their
 
    1.9. If you want to reset VoCol in initial state, run script resetVocol, i.e.: bash resetVoCol.sh
   
-###2. Configuration of the VoCol Environment
+###Configuration of the VoCol Environment
 
 2.1. Open Web Page: http://192.168.33.10/docs/configuration_page.html
 
